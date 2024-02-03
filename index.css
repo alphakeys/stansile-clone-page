@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+main {
+  display: flex;
+} 
+.content-container {
+  background-color: rgb(24, 24, 108);
+  width: 50%;
+}
+.sub-container {
+  padding: 100px 50px 0 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: deepskyblue;
+  line-height: 1.5;
+}
+h2 {
+  color: white;
+  line-height: 1.5;
+}
+p {
+  color: rgb(235, 234, 234);
+  line-height: 1.5;
+  padding: 20px 0;
+}
+a {
+  border: 1px skyblue solid ;
+  background-color: skyblue;
+  text-decoration:none;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 20px;
+  
+}
+.img-container {
+  width: 50%;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
